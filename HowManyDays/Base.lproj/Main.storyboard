@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HowManyDays" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HMD_background2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4wi-Dv-g0U">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sew-k5-AFW">
+                                <rect key="frame" x="156" y="485" width="102" height="30"/>
+                                <color key="backgroundColor" red="0.80784313725490198" green="0.13333333333333333" blue="0.10588235294117647" alpha="0.825896786971831" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Mkn-iM-RSu"/>
+                                    <constraint firstAttribute="width" constant="102" id="NMa-e8-kAv"/>
+                                </constraints>
+                                <state key="normal" title="Calculate Days">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6k-bz-MAJ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HowManyDays_box2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HRU-dy-7MX">
+                                <rect key="frame" x="47" y="269" width="321" height="199"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="199" id="pOY-Ci-Ip9"/>
+                                    <constraint firstAttribute="width" constant="321" id="xKW-UY-Q6L"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Click to Select a Month" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YGw-DP-KsM">
+                                <rect key="frame" x="122" y="353" width="171" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EFZ-Tg-jjj"/>
+                                    <constraint firstAttribute="width" constant="171" id="SFX-1X-g7l"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dK0-Ze-OaN">
+                                <rect key="frame" x="64" y="389" width="287" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="hZJ-W5-rcK"/>
+                                    <constraint firstAttribute="width" constant="287" id="t2R-Wd-Qek"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQJ-Uz-74o">
+                                <rect key="frame" x="172" y="485" width="71" height="30"/>
+                                <color key="backgroundColor" red="0.60545502706290855" green="0.69019607843137254" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="0c0-nL-hZZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="Y7c-eR-ndP"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Start Over">
+                                    <color key="titleColor" red="0.0041693652849999997" green="0.0041693652849999997" blue="0.0041693652849999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startOver:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HgY-HA-isK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4wi-Dv-g0U" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="48e-Bz-HkA"/>
+                            <constraint firstItem="4wi-Dv-g0U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7jr-s5-B8c"/>
+                            <constraint firstItem="yQJ-Uz-74o" firstAttribute="top" secondItem="HRU-dy-7MX" secondAttribute="bottom" constant="17" id="970-4a-vrx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4wi-Dv-g0U" secondAttribute="bottom" id="ApQ-T2-VEn"/>
+                            <constraint firstItem="YGw-DP-KsM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ErQ-eI-oGp"/>
+                            <constraint firstAttribute="trailing" secondItem="4wi-Dv-g0U" secondAttribute="trailing" id="PJ9-xw-zWZ"/>
+                            <constraint firstItem="HRU-dy-7MX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S05-zr-jKH"/>
+                            <constraint firstItem="YGw-DP-KsM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SFz-pr-GFd"/>
+                            <constraint firstItem="dK0-Ze-OaN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VCX-nZ-bCw"/>
+                            <constraint firstItem="HRU-dy-7MX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xhl-Se-rGk"/>
+                            <constraint firstItem="yQJ-Uz-74o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bRX-3N-QEB"/>
+                            <constraint firstItem="dK0-Ze-OaN" firstAttribute="top" secondItem="YGw-DP-KsM" secondAttribute="bottom" constant="6" id="m7h-Po-uIN"/>
+                            <constraint firstItem="Sew-k5-AFW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mHd-JT-JQ0"/>
+                            <constraint firstItem="Sew-k5-AFW" firstAttribute="top" secondItem="HRU-dy-7MX" secondAttribute="bottom" constant="17" id="omT-cc-nbK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="dK0-Ze-OaN" id="iqj-Td-opF"/>
+                        <outlet property="selectionTextField" destination="YGw-DP-KsM" id="Cqc-tS-di9"/>
+                        <outlet property="startOverButton" destination="yQJ-Uz-74o" id="NFk-aQ-hmx"/>
+                        <outlet property="submitButton" destination="Sew-k5-AFW" id="2ua-x8-GEM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87.200000000000003" y="127.28635682158921"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HMD_background2.jpg" width="750" height="1334"/>
+        <image name="HowManyDays_box2.png" width="321" height="199"/>
+    </resources>
+</document>

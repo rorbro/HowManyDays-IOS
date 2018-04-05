@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42128E4E1F1ADB9C00DA5E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42128E4D1F1ADB9C00DA5E48 /* AppDelegate.swift */; };
+		42128E501F1ADB9C00DA5E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42128E4F1F1ADB9C00DA5E48 /* ViewController.swift */; };
+		42128E531F1ADB9C00DA5E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42128E511F1ADB9C00DA5E48 /* Main.storyboard */; };
+		42128E551F1ADB9C00DA5E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42128E541F1ADB9C00DA5E48 /* Assets.xcassets */; };
+		42128E581F1ADB9C00DA5E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42128E561F1ADB9C00DA5E48 /* LaunchScreen.storyboard */; };
+		42128E601F1B16BC00DA5E48 /* howManyDays_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 42128E5F1F1B16BC00DA5E48 /* howManyDays_image.png */; };
+		424FDBE91F3540F400DA7715 /* HMD_background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 424FDBE81F3540F400DA7715 /* HMD_background2.jpg */; };
+		424FDBEB1F3565C900DA7715 /* HMD_launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 424FDBEA1F3565C900DA7715 /* HMD_launchimage.png */; };
+		42A056B01F26641000A1C799 /* How_ManyDays_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A056AF1F26641000A1C799 /* How_ManyDays_background.jpg */; };
+		42A056BA1F2667BC00A1C799 /* HowManyDays_box2.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A056B91F2667BC00A1C799 /* HowManyDays_box2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42128E4A1F1ADB9C00DA5E48 /* HowManyDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowManyDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42128E4D1F1ADB9C00DA5E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42128E4F1F1ADB9C00DA5E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42128E521F1ADB9C00DA5E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42128E541F1ADB9C00DA5E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42128E571F1ADB9C00DA5E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42128E591F1ADB9C00DA5E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42128E5F1F1B16BC00DA5E48 /* howManyDays_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = howManyDays_image.png; sourceTree = "<group>"; };
+		424FDBE81F3540F400DA7715 /* HMD_background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HMD_background2.jpg; sourceTree = "<group>"; };
+		424FDBEA1F3565C900DA7715 /* HMD_launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HMD_launchimage.png; sourceTree = "<group>"; };
+		42A056AF1F26641000A1C799 /* How_ManyDays_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = How_ManyDays_background.jpg; sourceTree = "<group>"; };
+		42A056B91F2667BC00A1C799 /* HowManyDays_box2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HowManyDays_box2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42128E471F1ADB9C00DA5E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42128E411F1ADB9C00DA5E48 = {
+			isa = PBXGroup;
+			children = (
+				42128E4C1F1ADB9C00DA5E48 /* HowManyDays */,
+				42128E4B1F1ADB9C00DA5E48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42128E4B1F1ADB9C00DA5E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42128E4A1F1ADB9C00DA5E48 /* HowManyDays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42128E4C1F1ADB9C00DA5E48 /* HowManyDays */ = {
+			isa = PBXGroup;
+			children = (
+				42128E4D1F1ADB9C00DA5E48 /* AppDelegate.swift */,
+				42128E4F1F1ADB9C00DA5E48 /* ViewController.swift */,
+				42128E511F1ADB9C00DA5E48 /* Main.storyboard */,
+				424FDBEA1F3565C900DA7715 /* HMD_launchimage.png */,
+				424FDBE81F3540F400DA7715 /* HMD_background2.jpg */,
+				42A056B91F2667BC00A1C799 /* HowManyDays_box2.png */,
+				42A056AF1F26641000A1C799 /* How_ManyDays_background.jpg */,
+				42128E5F1F1B16BC00DA5E48 /* howManyDays_image.png */,
+				42128E541F1ADB9C00DA5E48 /* Assets.xcassets */,
+				42128E561F1ADB9C00DA5E48 /* LaunchScreen.storyboard */,
+				42128E591F1ADB9C00DA5E48 /* Info.plist */,
+			);
+			path = HowManyDays;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42128E491F1ADB9C00DA5E48 /* HowManyDays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42128E5C1F1ADB9C00DA5E48 /* Build configuration list for PBXNativeTarget "HowManyDays" */;
+			buildPhases = (
+				42128E461F1ADB9C00DA5E48 /* Sources */,
+				42128E471F1ADB9C00DA5E48 /* Frameworks */,
+				42128E481F1ADB9C00DA5E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowManyDays;
+			productName = HowManyDays;
+			productReference = 42128E4A1F1ADB9C00DA5E48 /* HowManyDays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42128E421F1ADB9C00DA5E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = brookswebpro;
+				TargetAttributes = {
+					42128E491F1ADB9C00DA5E48 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9587NR8B2P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42128E451F1ADB9C00DA5E48 /* Build configuration list for PBXProject "HowManyDays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42128E411F1ADB9C00DA5E48;
+			productRefGroup = 42128E4B1F1ADB9C00DA5E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42128E491F1ADB9C00DA5E48 /* HowManyDays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42128E481F1ADB9C00DA5E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A056B01F26641000A1C799 /* How_ManyDays_background.jpg in Resources */,
+				42128E581F1ADB9C00DA5E48 /* LaunchScreen.storyboard in Resources */,
+				42128E551F1ADB9C00DA5E48 /* Assets.xcassets in Resources */,
+				42A056BA1F2667BC00A1C799 /* HowManyDays_box2.png in Resources */,
+				424FDBEB1F3565C900DA7715 /* HMD_launchimage.png in Resources */,
+				42128E601F1B16BC00DA5E48 /* howManyDays_image.png in Resources */,
+				424FDBE91F3540F400DA7715 /* HMD_background2.jpg in Resources */,
+				42128E531F1ADB9C00DA5E48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42128E461F1ADB9C00DA5E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42128E501F1ADB9C00DA5E48 /* ViewController.swift in Sources */,
+				42128E4E1F1ADB9C00DA5E48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42128E511F1ADB9C00DA5E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42128E521F1ADB9C00DA5E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42128E561F1ADB9C00DA5E48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42128E571F1ADB9C00DA5E48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42128E5A1F1ADB9C00DA5E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42128E5B1F1ADB9C00DA5E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42128E5D1F1ADB9C00DA5E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9587NR8B2P;
+				INFOPLIST_FILE = HowManyDays/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brookswebpro.HowManyDays2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42128E5E1F1ADB9C00DA5E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9587NR8B2P;
+				INFOPLIST_FILE = HowManyDays/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brookswebpro.HowManyDays2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42128E451F1ADB9C00DA5E48 /* Build configuration list for PBXProject "HowManyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42128E5A1F1ADB9C00DA5E48 /* Debug */,
+				42128E5B1F1ADB9C00DA5E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42128E5C1F1ADB9C00DA5E48 /* Build configuration list for PBXNativeTarget "HowManyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42128E5D1F1ADB9C00DA5E48 /* Debug */,
+				42128E5E1F1ADB9C00DA5E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42128E421F1ADB9C00DA5E48 /* Project object */;
+}
